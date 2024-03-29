@@ -1,17 +1,32 @@
 .message {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+    margin-bottom: 10px;
 
 }
 
 .imageAndText {
+    display: flex;
+    flex-direction: row-reverse;
+
 
 }
 
 .imageAndText img {
+    align-self: flex-end;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
 
 }
 
 .text {
-
+    color: white;
+    margin-right: 10px;
+    background-color: rgb(0, 102, 204);
+    border-radius: 10px;
 }
 
 .text:after {
@@ -19,13 +34,24 @@
 }
 
 .name {
-
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5px;
 }
 
 .messageText {
 
+    border-radius: 10px;
+    padding: 10px;
+
 }
 
 .time {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+    color: #999;
+    padding-right: 10px;
+    align-self: flex-end
 
 }
